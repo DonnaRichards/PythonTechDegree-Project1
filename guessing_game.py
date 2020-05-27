@@ -1,16 +1,9 @@
 """
-Python Web Development Techdegree
+TeamTreehouse Python Web Development Techdegree
 Project 1 - Number Guessing Game
 --------------------------------
 
-For this first project we will be using Workspaces.
-
-NOTE: If you strongly prefer to work locally on your own computer, you can totally do that by clicking: File -> Download Workspace in the file menu after you fork the snapshot of this workspace.
-
-"""
-    """Psuedo-code Hints
-
-    When the program starts, we want to:
+    Program functions:
     ------------------------------------
     1. Display an intro/welcome message to the player.
     2. Store a random number as the answer/solution.
@@ -22,13 +15,12 @@ NOTE: If you strongly prefer to work locally on your own computer, you can total
          and show how many attempts it took them to get the correct number.
     5. Let the player know the game is ending, or something that indicates the game is over.
 
-    ( You can add more features/enhancements if you'd like to. )
 """
   
 import random
 
 START_NUM = 1
-END_NUM = 10
+END_NUM = 100
 
 def play_game(bestscore):
     random_no = random.randint(START_NUM, END_NUM)
